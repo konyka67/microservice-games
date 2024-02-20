@@ -1,0 +1,16 @@
+{"index":{"_index":"videojuego"}}
+{"titulo": "Red Dead Redemption 2", "descripcion": "Embárcate en un viaje épico a través del Salvaje Oeste en esta obra maestra de Rockstar Games. Vive la vida de un forajido en un vasto mundo abierto lleno de peligros y oportunidades.", "precio": 59.99}
+{"index":{"_index":"videojuego"}}
+{"titulo": "The Witcher 3: Wild Hunt", "descripcion": "Adéntrate en un mundo lleno de monstruos, magia y conspiraciones en este galardonado juego de rol. Acompaña al cazador de monstruos Geralt de Rivia en su búsqueda de su hija adoptiva, Ciri.", "precio": 39.99}
+{"index":{"_index":"videojuego"}}
+{"titulo": "Grand Theft Auto V", "descripcion": "Explora la ciudad ficticia de Los Santos en este exitoso juego de mundo abierto. Con tres protagonistas jugables, una historia llena de giros y actividades para disfrutar, como robar coches, participar en atracos y mucho más.", "precio": 29.99}
+{"index":{"_index":"videojuego"}}
+{"titulo": "Fortnite", "descripcion": "Únete a millones de jugadores en línea en este popular juego de Battle Royale. Construye, lucha y sobrevive para ser el último en pie en un campo de batalla en constante cambio.", "precio": 0}
+{"index":{"_index":"videojuego"}}
+{"titulo": "Minecraft", "descripcion": "Crea tu propio mundo y deja volar tu imaginación en este icónico juego de construcción. Reúne recursos, construye estructuras y enfréntate a criaturas en un mundo generado proceduralmente.", "precio": 26.95}
+{"index":{"_index":"videojuego"}}
+{"titulo": "Overwatch", "descripcion": "Únete a un equipo de héroes en este vibrante juego de disparos en primera persona. Combina habilidades únicas y trabaja en equipo para cumplir objetivos en emocionantes partidas multijugador.", "precio": 39.99}
+{"index":{"_index":"videojuego"}}
+{"titulo": "Super Smash Bros. Ultimate", "descripcion": "Reúne a tus personajes favoritos de videojuegos en este épico juego de lucha. Libra batallas emocionantes con amigos o en línea y demuestra quién es el mejor luchador de todos los tiempos.", "precio": 59.99}
+{"index":{"_index":"videojuego"}}
+{"titulo": "Call of Duty: Warzone", "descripcion": "Entra en la acción en este trepidante juego de Battle Royale de la franquicia Call of Duty. Lucha en un campo de batalla masivo, saquea, completa contratos y asegúrate de ser el último en pie.", "precio": 0}

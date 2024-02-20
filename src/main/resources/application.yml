@@ -1,0 +1,29 @@
+## Configuracion de Spring
+spring:
+  application:
+    name: ms-games
+
+## Configuracion de Instancia 
+server:
+  port: 8089
+  fullAddress: ${HOST:http://localhost}:${PORT:${server.port}}
+
+## Configuracion del cliente de Eureka
+eureka: 
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: ${EUREKA_URL:https://eureka-server-production-efc6.up.railway.app/eureka}
+  instance:
+    preferIpAddress: true
+    hostname: ${HOSTNAME:eureka-server-production-efc6.up.railway.app}
+##Elasticsearch config
+elasticsearch:
+  host: micampanygiovanni-se-8287637583.us-east-1.bonsaisearch.net
+  credentials:
+    user: tq262nbt2y
+    password: i8mxwtmhbc
+logging:
+  level:
+    tracer: TRACE
