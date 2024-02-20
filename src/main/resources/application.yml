@@ -16,8 +16,12 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_URL:https://eureka-server-production-efc6.up.railway.app/eureka}
   instance:
-    preferIpAddress: ${IPACTIVATE}
-    hostname: ${HOSTNAME:eureka-server-production-efc6.up.railway.app}
+    preferIpAddress: ${IPACTIVATE:true}
+    hostname: ${HOSTNAME:localhost}
+    non-secure-port-enabled: true
+    secure-port-enabled: false
+    non-secure-port: ${server.port}
+    secure-port: 443
 ##Elasticsearch config
 elasticsearch:
   host: micampanygiovanni-se-8287637583.us-east-1.bonsaisearch.net
