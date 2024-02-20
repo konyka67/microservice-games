@@ -6,7 +6,7 @@ spring:
 ## Configuracion de Instancia 
 server:
   port: 8088
-  fullAddress: ${HOST:http://localhost}:${PORT:${server.port}}
+  fullAddress: https://microservice-games-production.up.railway.app/
 
 ## Configuracion del cliente de Eureka
 eureka: 
