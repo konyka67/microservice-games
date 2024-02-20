@@ -1,7 +1,7 @@
 ## Configuracion de Spring
 spring:
   application:
-    name: ms-games
+    name: ms-play
 
 ## Configuracion de Instancia 
 server:
@@ -16,7 +16,7 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_URL:https://eureka-server-production-efc6.up.railway.app/eureka}
   instance:
-    preferIpAddress: true
+    preferIpAddress: ${IPACTIVATE}
     hostname: ${HOSTNAME:eureka-server-production-efc6.up.railway.app}
 ##Elasticsearch config
 elasticsearch:
